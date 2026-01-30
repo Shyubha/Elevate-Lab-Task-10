@@ -1,0 +1,10 @@
+
+EDA FINDINGS (TASK 10):
+
+1. Dataset initially contained missing values (<1%) which were handled using median imputation.
+2. Score distributions showed slight right skew, especially in math scores.
+3. Outliers were detected using the IQR method.
+4. Instead of removing outliers, values were capped to preserve dataset size.
+5. Strong positive correlation observed between reading and writing scores.
+6. Weak-to-moderate correlation between math and reading scores.
+7. Cleaned dataset is suitable for further modeling or analysis.
